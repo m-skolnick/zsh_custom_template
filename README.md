@@ -6,8 +6,9 @@ Custom Oh-my-zsh plugins and aliases etc
 
 ## Installation on new machine
 
-1.  Install oh-my-zsh [Oh-my-zsh](https://ohmyz.sh/)
-1.  Clone this repository into custom folder
+1. Install oh-my-zsh [Oh-my-zsh](https://ohmyz.sh/)
+1. Choose "yes" to switch to zsh
+1. Clone this repository into custom folder
 
         cd ~/.oh-my-zsh/custom/
         git clone https://github.com/m-skolnick/zsh_custom_template.git
@@ -20,6 +21,14 @@ Custom Oh-my-zsh plugins and aliases etc
 1. Open zshrc
 
         code ~/.zshrc
+
+        Note: If you see "zsh: command not found: code", you need to add code to your path
+
+        1. Open Visual Studio Code
+        1. CMD + Shift + p
+        1. Search for "install "code" command in path"
+        1. Tap "enter"
+        1. Now you can continue
 
 1. In ~/.zshrc Add the following starting at line 77
         This should be placed right before the line: 
