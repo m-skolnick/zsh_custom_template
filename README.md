@@ -12,11 +12,16 @@ Custom Oh-my-zsh plugins and aliases etc
         cd ~/.oh-my-zsh/custom/
         git clone https://github.com/m-skolnick/zsh_custom_template.git
 
-1.  Open zshrc
+1. Clone the zsh-autosuggestions repo into custom/plugins
+
+        cd ~/.oh-my-zsh/custom/zsh_custom_template/plugins
+        git clone https://github.com/zsh-users/zsh-autosuggestions.git
+
+1. Open zshrc
 
         code ~/.zshrc
 
-1.  In ~/.zshrc Add the following starting at line 77
+1. In ~/.zshrc Add the following starting at line 77
         This should be placed right before the line: 
                 source $ZSH/oh-my-zsh.sh
 
