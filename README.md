@@ -6,7 +6,7 @@ Custom Oh-my-zsh plugins and aliases etc
 
 ## Installation on new machine
 
-1.  Install oh-my-zsh
+1.  Install oh-my-zsh [Oh-my-zsh](https://ohmyz.sh/)
 1.  Clone this repository into custom folder
 
         cd ~/.oh-my-zsh/custom/
