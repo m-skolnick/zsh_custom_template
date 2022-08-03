@@ -81,7 +81,7 @@ ENABLE_CORRECTION="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$ZSH/custom/my_zsh_custom
+ZSH_CUSTOM=$ZSH/custom/zsh_custom_template
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
